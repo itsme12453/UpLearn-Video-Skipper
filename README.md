@@ -29,7 +29,7 @@ In UpLearn video lessons, there are periodic in-video questions. This script use
     - If the browser doesn't allow you to paste the code into the console, simply type `allow pasting` in the console to enable it.
 
 3. **Copy and Paste the Script**:
-    - Copy the entire script (from this GitHub page `index.js`) and paste it into the console.
+    - Copy the entire script ([from this GitHub page `index.js`](https://github.com/itsme12453/UpLearn-Video-Skipper/blob/main/index.js)) and paste it into the console.
 
 4. **Run the Script**:
     - After pasting, press `Enter` to run the script.
