@@ -108,12 +108,12 @@ const makeApiRequest = () => {
             console.log("Current Time:", currentTime, "Next Time:", questionTimes[nextTimeIndex]);
 
             if (nextTimeIndex < questionTimes.length) {
-                if (currentTime >= questionTimes[nextTimeIndex] + 1) {
+                if (currentTime - 2 >= questionTimes[nextTimeIndex]) {
                     console.log(`Skipping to: ${questionTimes[nextTimeIndex]} seconds`);
                     nextTimeIndex++;
 
                     if (nextTimeIndex < questionTimes.length) {
-                        video.currentTime = questionTimes[nextTimeIndex];
+                        video.currentTime = questionTimes[nextTimeIndex] - 1;
                     } else {
                         console.log("No more questions. Skipping to the end of the video.");
                         video.currentTime = video.duration - 0.5;
