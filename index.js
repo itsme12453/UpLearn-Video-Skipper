@@ -34,6 +34,7 @@ function processTime(postQuestionResumeTime) {
 }
 
 const makeApiRequest = () => {
+    video = document.querySelector("video")
     const url = window.location.href;
     const urlParts = url.split('/');
     const moduleUniqueCode = urlParts[4];
